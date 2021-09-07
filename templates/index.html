@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+        <title>Funny</title>
+    </head>
+    <body>
+        <form action="/users" method="post">
+            <div class="form-group">
+                <label for="inputName">Name</label>
+                <input type="text" class="form control" id="inputName" placeholder="Enter" name="name">
+            </div>
+            <div class="form-group">
+                <label for="locationSelect">Dojo Location</label>
+                <select class="form-control" name="loca" id="locationSelect">
+                    <option>Chicago</option>
+                    <option>Seattle</option>
+                    <option>Online</option>
+                    <option>Burbank</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="langSelect">Favorite Language</label>
+                <select class="form-control" name="lang" id="langSelect">
+                    <option>Python</option>
+                    <option>Java</option>
+                    <option>JavaScript</option>
+                    <option>Swift</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="comment">Comment (optional)</label>
+                <input type="text" class="form control" id="comment" placeholder="Enter" name= "comment">
+            </div>
+            <button type="submit" class="btn btn-info" value="create user">Submit</button>
+        </form>
+
+
+
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    </body>
+</html>
